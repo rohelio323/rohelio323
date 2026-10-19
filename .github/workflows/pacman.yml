@@ -18,7 +18,6 @@ jobs:
     steps:
       - uses: abozanona/pacman-contribution-graph@main
         with:
-
           github_user_name: ${{ github.repository_owner }}
           games: pacman
 
