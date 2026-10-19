@@ -18,8 +18,9 @@ jobs:
     steps:
       - uses: abozanona/pacman-contribution-graph@main
         with:
-          platform: github
-          username: ${{ github.repository_owner }}
+
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
